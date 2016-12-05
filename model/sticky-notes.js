@@ -13,6 +13,8 @@ class Board {
 	}
 
 	addStickyNote() {
-		this.stickyNotes.push(new StickyNote());
+		var note = new StickyNote();
+		this.stickyNotes.push(note);
+		return note;
 	}
 }
