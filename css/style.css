@@ -1,0 +1,75 @@
+html, body {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: #263138;
+}
+
+.mdl-button--floating-action {
+  bottom:24px;
+  margin-bottom:0px;
+  position:fixed;
+  right:24px;
+  z-index:998;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background-color: #46B6AC;
+}
+
+.icon {
+  float:right;
+}
+
+.notes {
+  margin: 40px;
+}
+
+.note {
+  display: inline-block;
+  margin: 15px;
+}
+
+.title-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #46b6ac;
+  border: none;
+  color: white;
+}
+
+.title-text:focus {
+  outline: none;
+}
+
+.title-text::placeholder {
+  color: white;
+  opacity: .5;
+}
+
+.content-text {
+  height: 228px;
+  resize: none;
+  border:none;
+  color: rgba(0,0,0,.54);
+  font-size: 1rem;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.content-text:focus {
+  outline: none;
+}
+
+.content-text::placeholder {
+  opacity: .5;
+}
