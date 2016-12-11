@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sticky Notes</title>
-	<meta charset="utf-8">
-	
-	<script type="text/javascript" src="model/sticky-notes.js"></script>
-	<script type="text/javascript" src="view/view.js"></script>
-	<script type="text/javascript" src="ctrl/ctrl.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+
+<title>Sticky Notes</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.teal-pink.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+<script type="text/javascript" src="model/sticky-notes.js"></script>
+<script type="text/javascript" src="view/view.js"></script>
+<script type="text/javascript" src="ctrl/ctrl.js"></script>
+<script type="text/javascript" src="init.js"></script>
 
 </head>
+
+
 <body>
+
+<div class="mdl-layout mdl-js-layout">
+
+<header class="mdl-layout__header">
+  <div class="mdl-layout__header-row">
+    <!-- Title -->
+    <span class="mdl-layout-title">Sticky Notes</span>
+    <!-- Add spacer, to align navigation to the right -->
+    <div class="mdl-layout-spacer"></div>
+    <!-- Navigation -->
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+</header>
+<div class="mdl-layout__drawer">
+  <span class="mdl-layout-title">Sticky Notes</span>
+  <nav class="mdl-navigation">
+    <a class="mdl-navigation__link" href="">Link</a>
+  </nav>
+</div>
+
+
+<main class="mdl-layout__content">
+
+<div class="notes">
+
+<!-- notes -->
+
+</div>
+
+</main>
+
+</div>  
+
+<button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-button--floating-action">
+  <i class="material-icons">note_add</i>
+</button>
+
+</div>
 
 </body>
 </html>
