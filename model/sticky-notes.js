@@ -1,20 +1,20 @@
-class StickyNote {
-	constructor() {
-		this.date = new Date();
-		this.title = '';
-		this.content = '';
-	}
-}
-
-
 class Board {
 	constructor() {
 		this.stickyNotes = [];
 	}
 
-	addStickyNote() {
-		var note = new StickyNote();
+	addStickyNote(title, content, date) {
+		var note = new StickyNote(this.stickyNotes.length, title, content, date);
 		this.stickyNotes.push(note);
 		return note;
+	}
+}
+
+class StickyNote {
+	constructor(position, title='', content='', date=new Date()) {
+		this.position = position;
+		this.title = title;
+		this.content = content;
+		this.date = date;
 	}
 }
