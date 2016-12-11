@@ -54,7 +54,7 @@ body {
 }
 
 .content-text {
-  height: 228px;
+  height: 196px;
   resize: none;
   border:none;
   color: rgba(0,0,0,.54);
@@ -70,4 +70,29 @@ body {
 
 .content-text::placeholder {
   opacity: .5;
+}
+
+.date-text {
+  background-color: unset;
+  border: none;
+  color: white;
+  width: 70%;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin-left: 3px;
+}
+
+
+.time-text {
+  background-color: unset;
+  border: none;
+  color: white;
+  width: auto;
+  font-size: 1rem;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin-right: -20px;
+  float:right;
 }
