@@ -15,14 +15,13 @@ body {
   z-index:998;
 }
 
-.demo-card-square.mdl-card {
+.mdl-card {
   width: 320px;
   height: 320px;
 }
 
-.demo-card-square > .mdl-card__title {
+.mdl-card__title {
   color: #fff;
-  background-color: #46B6AC;
 }
 
 .icon {
@@ -41,7 +40,6 @@ body {
 .title-text {
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #46b6ac;
   border: none;
   color: white;
 }
