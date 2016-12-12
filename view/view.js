@@ -42,7 +42,7 @@ class ViewNote {
 				div1.appendChild(div2);
 				this.titleField = document.createElement('input');
 				this.titleField.type = 'text';
-				this.titleField.placeholder = 'Give me a title!';
+				this.titleField.placeholder = 'Set a title!';
 				this.titleField.className = 'mdl-card__title-text mdl-color--primary title-text';
 				div1.appendChild(this.titleField);
 				var div3 = document.createElement('div');
